@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
     title: `Something about a Blog?`,
     description: `Come scream out into the void. Nobody will hear you, but at least you tried.`,
-    author: `@gatsbyjs`,
+    author: `@RobertWard`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     contact: {
       name: "Robert Ward",
@@ -20,6 +20,13 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+      spaceId: `t15igd2w1kum`,
+      accessToken: `e2M0_L7RcEyctezU8ZoEjOUwPsh5TcHY8CH_xoGeagc`
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

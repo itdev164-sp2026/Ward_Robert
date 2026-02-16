@@ -1,0 +1,20 @@
+{
+  "name": "ward_robert",
+  "version": "1.0.0",
+  "description": "Project for ITDEV-164",
+  "homepage": "https://github.com/itdev164-sp2026/Ward_Robert#readme",
+  "bugs": {
+    "url": "https://github.com/itdev164-sp2026/Ward_Robert/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdev164-sp2026/Ward_Robert.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
