@@ -7,8 +7,8 @@ const path = require('path');
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
-exports.createPages = async ({ actions, graphql }) => {
-  const { createPage } = actions
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions;
   return new Promise((resolve, reject) => {
     graphql(`
       {
