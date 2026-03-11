@@ -8,7 +8,7 @@ import * as styles from "../components/index.module.css"
 
 
 
-  const IndexPage = ({data}) => {
+  const IndexPage = ({data}) => (
     <Layout>
       <ul className = {styles.list}> 
         {
@@ -28,7 +28,7 @@ import * as styles from "../components/index.module.css"
       }
       </ul>
     </Layout>
-  }
+  )
 
 
 
